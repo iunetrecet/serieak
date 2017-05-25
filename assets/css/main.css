@@ -6456,7 +6456,9 @@ button.close {
 .modal-header:before,
 .modal-header:after,
 .modal-footer:before,
-.modal-footer:after {
+.modal-footer:after,
+body:before,
+body:after {
   content: " ";
   display: table;
 }
@@ -6475,7 +6477,8 @@ button.close {
 .pager:after,
 .panel-body:after,
 .modal-header:after,
-.modal-footer:after {
+.modal-footer:after,
+body:after {
   clear: both;
 }
 .center-block {
@@ -6720,6 +6723,28 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+body {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin: 0;
+}
+header {
+  height: 100vh;
+  margin-bottom: 4rem;
+  background-image: url('../images/azala.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+header a.berria {
+  display: block;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 2rem;
 }
 .irudi {
   position: relative;
