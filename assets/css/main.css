@@ -6813,6 +6813,10 @@ h3#gaia {
 h3#gaia:before {
   border-color: #e1221a;
 }
+p.gaiaSarrera {
+  font-size: 1.5em;
+  margin-top: 1em;
+}
 .irudi {
   position: relative;
 }
