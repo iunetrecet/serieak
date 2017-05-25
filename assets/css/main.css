@@ -6733,8 +6733,9 @@ body {
   margin: 0;
 }
 .line:before {
-  border-bottom: 0.7rem solid #333333;
-  margin-bottom: 1rem;
+  height: .7rem;
+  background: #333333;
+  margin-bottom: .7rem;
   width: 5em;
   display: block;
   content: " ";
@@ -6811,7 +6812,7 @@ h3#gaia {
   font-family: LatoRegular;
 }
 h3#gaia:before {
-  border-color: #e1221a;
+  background: #e1221a;
 }
 p.gaiaSarrera {
   font-size: 1.5em;
@@ -6821,6 +6822,9 @@ h1#titularra {
   color: #e1221a;
   font-size: 7em;
   margin-bottom: 4rem;
+}
+p.testua {
+  font-size: 1.3em;
 }
 .irudi {
   position: relative;
