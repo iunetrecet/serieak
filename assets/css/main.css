@@ -6808,6 +6808,7 @@ article {
 h3#gaia {
   margin-top: 0;
   color: #e1221a;
+  font-family: LatoRegular;
 }
 h3#gaia:before {
   border-color: #e1221a;
