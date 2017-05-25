@@ -37,7 +37,6 @@
   }
 }
 .horizontala {
-  .responsive(12, 8, 6);
   img {
     width: 100%; }
   .oina {
@@ -53,9 +52,9 @@
   display: block;
   @media (min-width: @screen-sm-min) {
     display: inline;
-    float: left;
+    float: right;
     width: 50%;
-    margin: 3% 3% 1% -10%;
+    margin: 3% -10% 1% 3%;
   }
   img {
     width: 100%;
@@ -65,8 +64,8 @@
   }
   .oina {
     @media (min-width: @screen-sm-min) {
-      left: -12em;
-      text-align: right;
+      right: -12em;
+      text-align: left;
       bottom: 0;
     }
   }
