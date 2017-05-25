@@ -6724,6 +6724,9 @@ button.close {
     display: none !important;
   }
 }
+body {
+  font-family: LatoLight;
+}
 .wrap {
   margin-left: -15px;
   margin-right: -15px;
@@ -6804,6 +6807,10 @@ article {
 }
 h3#gaia {
   margin-top: 0;
+  color: #e1221a;
+}
+h3#gaia:before {
+  border-color: #e1221a;
 }
 .irudi {
   position: relative;
