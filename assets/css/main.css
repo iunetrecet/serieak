@@ -6740,6 +6740,14 @@ body {
   display: block;
   content: " ";
 }
+*::-moz-selection {
+  color: white;
+  background: #e1221a;
+}
+*::selection {
+  color: white;
+  background: #e1221a;
+}
 header {
   height: 80vh;
   margin-bottom: 4rem;
@@ -6815,16 +6823,22 @@ h3#gaia:before {
   background: #e1221a;
 }
 p.gaiaSarrera {
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin-top: 1em;
 }
 h1#titularra {
   color: #e1221a;
-  font-size: 7em;
+  font-size: 4.5em;
   margin-bottom: 4rem;
 }
+@media (min-width: 768px) {
+  h1#titularra {
+    font-size: 7em;
+  }
+}
 p.testua {
-  font-size: 1.3em;
+  font-size: 1.45em;
+  line-height: 1.5em;
 }
 p.sinadura {
   color: grey;
