@@ -6849,6 +6849,9 @@ p.testua {
   font-size: 1.2em;
 }
 .panoramikoa {
+  height: 30rem;
+  background-attachment: fixed;
+  background-size: cover;
   position: relative;
   float: left;
   width: 100%;
@@ -6900,9 +6903,6 @@ p.testua {
   .panoramikoa {
     margin-left: 0%;
   }
-}
-.panoramikoa img {
-  width: 100%;
 }
 @media (min-width: 768px) {
   .panoramikoa .oina {
