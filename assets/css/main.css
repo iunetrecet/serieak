@@ -6833,6 +6833,7 @@ p.testua {
   font-size: 1.3rem;
   font-family: LatoLight;
   line-height: 1.5em;
+  margin-top: 1rem;
 }
 @media (min-width: 768px) {
   .oina {
@@ -6860,11 +6861,6 @@ p.testua {
   padding-right: 7.5%;
   padding: 0 !important;
   margin: 2rem 0 !important;
-}
-@media (max-width: 767px) {
-  .panoramikoa {
-    display: none;
-  }
 }
 @media (min-width: 768px) {
   .panoramikoa {
@@ -6904,8 +6900,12 @@ p.testua {
     margin-left: 0%;
   }
 }
+.panoramikoa .oina {
+  display: none;
+}
 @media (min-width: 768px) {
   .panoramikoa .oina {
+    display: block;
     right: 5em;
     background: white;
     padding: .3em;
@@ -6956,11 +6956,11 @@ img.karetoa {
 .esana {
   color: #e1221a;
   width: 100%;
-  margin: 1em 0;
   display: block;
   font-family: LatoRegular;
   font-size: 2.5rem;
   line-height: 1.7em;
+  margin: 3em 0;
 }
 .entresaka p,
 .esana p {
@@ -6973,6 +6973,7 @@ img.karetoa {
 @media (min-width: 768px) {
   .entresaka,
   .esana {
+    margin: 1em 0;
     display: inline;
     float: right;
     width: 60%;
