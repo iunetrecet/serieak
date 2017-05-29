@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="51.161777mm"
+   height="4.5407648mm"
+   viewBox="0 0 51.161777 4.5407648"
+   version="1.1"
+   id="svg4828"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="komak.svg">
+  <defs
+     id="defs4822" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-237.60204"
+     inkscape:cy="-214.73305"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="800"
+     inkscape:window-height="881"
+     inkscape:window-x="800"
+     inkscape:window-y="19"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata4825">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-42.454826,-87.477783)">
+    <g
+       id="g5394">
+      <g
+         id="text4781"
+         style="font-style:normal;font-weight:normal;font-size:5.43949461px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e1221a;fill-opacity:1;stroke:none;stroke-width:0.13598736"
+         transform="scale(-1,1)"
+         aria-label="&quot;">
+        <path
+           id="path5387"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.05478668px;font-family:'Kremlin Kommisar';-inkscape-font-specification:'Kremlin Kommisar, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#e1221a;fill-opacity:1;stroke-width:0.13598736"
+           d="m -68.679533,87.505442 v 2.562512 h -1.262133 l 1.268507,1.944194 h -1.268507 l -1.300379,-1.969692 v -2.537014 z m 3.843767,0.0064 v 2.562511 h -1.255758 l 1.262133,1.944195 h -1.262133 l -1.306753,-1.969692 v -2.537014 z"
+           inkscape:connector-curvature="0" />
+      </g>
+      <path
+         id="rect4783"
+         d="M 42.454826,87.477783 H 62.46261 v 2.561541 H 42.454826 Z"
+         style="fill:#e1221a;fill-opacity:1;stroke:none;stroke-width:0.12614335;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="rect4783-7"
+         d="m 73.608818,87.477783 h 20.007784 v 2.561541 H 73.608818 Z"
+         style="fill:#e1221a;fill-opacity:1;stroke:none;stroke-width:0.12614335;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

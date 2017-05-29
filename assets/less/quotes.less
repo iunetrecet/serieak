@@ -1,0 +1,38 @@
+.entresaka, .esana {
+  color: @red;
+  width: 100%;
+  margin: 1em 0;
+  display: block;
+  font-family: @body;
+  font-size: 2.5rem;
+  line-height: 1.7em;
+  p {
+    padding-top: .5em;
+  }
+  &:before {
+    background: @red;
+  }
+  @media (min-width: @screen-sm-min) {
+    display: inline;
+    float: right;
+    width: 60%;
+    margin: 3% -20% 1% 3%;
+  }
+}
+.esana {
+  .sinadura {
+    font-weight: bold;
+  }
+  &:before {
+    background: url('../images/komak.svg');
+    background-size: cover;
+    height: 1rem;
+  }
+}
+.entresaka {
+  @media (min-width: @screen-sm-min) {
+    float: left;
+    margin: 3% 3% 1% -20%;
+  }
+}
+
