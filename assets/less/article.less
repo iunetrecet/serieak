@@ -2,6 +2,7 @@ article {
   background: white;
   margin-top: -12rem;
   padding: 2em !important;
+  position: relative;
   .responsive(12,8,6);
 }
 h3#gaia {
@@ -23,4 +24,28 @@ h1#titularra {
 }
 p.testua {
   font-size: 1.3em;
+}
+p.sinadura {
+  color: grey;
+  font-size: 1.3em;
+  font-family: @body;
+  .sinadura-data {
+    font-family: @light;
+    font-style: italic;
+  }
+  &:before {
+    background: grey;
+  }
+  @media (min-width: @screen-sm-min) {
+    position: absolute;
+    top: 11rem;
+    left: -20rem;
+    width: 19rem;
+    text-align: right;
+    &:before {
+      position: absolute;
+      right: 0;
+      top: -1rem;
+    }
+  }
 }

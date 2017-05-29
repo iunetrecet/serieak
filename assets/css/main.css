@@ -6826,6 +6826,32 @@ h1#titularra {
 p.testua {
   font-size: 1.3em;
 }
+p.sinadura {
+  color: grey;
+  font-size: 1.3em;
+  font-family: LatoRegular;
+}
+p.sinadura .sinadura-data {
+  font-family: LatoLight;
+  font-style: italic;
+}
+p.sinadura:before {
+  background: grey;
+}
+@media (min-width: 768px) {
+  p.sinadura {
+    position: absolute;
+    top: 11rem;
+    left: -20rem;
+    width: 19rem;
+    text-align: right;
+  }
+  p.sinadura:before {
+    position: absolute;
+    right: 0;
+    top: -1rem;
+  }
+}
 .irudi {
   position: relative;
 }
