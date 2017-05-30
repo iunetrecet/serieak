@@ -6749,7 +6749,7 @@ body {
   background: #e1221a;
 }
 header {
-  height: 60vh;
+  height: 90vh;
   margin-bottom: 4rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6830,6 +6830,9 @@ header h1.line:before {
   height: 1rem;
   background: #e1221a;
   width: 2em;
+}
+.index header {
+  height: 60vh;
 }
 article {
   background: white;
@@ -7261,6 +7264,11 @@ nav a {
 nav a:hover {
   color: #ec615b;
   text-decoration: none;
+}
+.desaktibatua {
+  pointer-events: none;
+  cursor: default;
+  color: #ccc;
 }
 .card {
   margin: 3% 0;
