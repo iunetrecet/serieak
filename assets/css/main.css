@@ -7144,6 +7144,14 @@ img.karetoa {
   src: url(../fonts/pt/PT_Serig-Web-Bold.ttf);
   font-weight: bold;
 }
+@keyframes move {
+  from {
+    left: -10em;
+  }
+  to {
+    left: 2em;
+  }
+}
 footer {
   position: relative;
   float: left;
@@ -7193,66 +7201,34 @@ footer {
   }
 }
 nav {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
-  border-top: 0.7rem #e1221a solid;
   font-family: LatoRegular;
   margin-bottom: 2em;
+  width: 100%;
+  font-size: 0;
+  display: none;
 }
 @media (min-width: 768px) {
   nav {
-    position: relative;
-    min-height: 1px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-@media (min-width: 768px) and (min-width: 768px) {
-  nav {
-    float: left;
-    width: 100%;
-  }
-}
-@media (min-width: 768px) and (min-width: 768px) {
-  nav {
-    margin-left: 0%;
-  }
-}
-@media (min-width: 1200px) {
-  nav {
-    position: relative;
-    min-height: 1px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-@media (min-width: 1200px) and (min-width: 1200px) {
-  nav {
-    float: left;
-    width: 100%;
-  }
-}
-@media (min-width: 1200px) and (min-width: 768px) {
-  nav {
-    margin-left: 0%;
+    display: block;
+    position: fixed;
+    bottom: 3rem;
   }
 }
 nav a {
-  color: #e1221a;
-  text-align: center;
+  color: white;
   padding: 5%;
   display: block;
   font-size: 3rem;
 }
+nav a span {
+  background: #e1221a;
+  padding: 1rem;
+}
 @media (min-width: 768px) {
   nav a {
-    padding: 1%;
+    padding: 0;
     display: inline-block;
-    width: 33%;
+    width: 50%;
   }
   nav a.previous {
     text-align: left;
@@ -7262,13 +7238,70 @@ nav a {
   }
 }
 nav a:hover {
-  color: #ec615b;
   text-decoration: none;
+  color: white;
+}
+nav a:hover span {
+  background: #ec615b;
 }
 .desaktibatua {
   pointer-events: none;
   cursor: default;
-  color: #ccc;
+}
+.desaktibatua span {
+  background: #ccc;
+}
+a.home {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  text-align: center;
+  font-size: 2em;
+  color: #e1221a;
+  font-family: LatoRegular;
+  border-bottom: #e1221a 0.2em solid;
+  padding-bottom: 1em;
+}
+@media (min-width: 768px) {
+  a.home {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  a.home {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  a.home {
+    margin-left: 16.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  a.home {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  a.home {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+@media (min-width: 1200px) and (min-width: 768px) {
+  a.home {
+    margin-left: 33.33333333%;
+  }
 }
 .card {
   margin: 3% 0;

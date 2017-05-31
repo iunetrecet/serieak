@@ -1,18 +1,27 @@
 nav {
-  .responsive(12,12,12);
-  border-top: .7rem @red solid;
   font-family: @body;
   margin-bottom: 2em;
+  width: 100%;
+  font-size: 0;
+  display: none;
+  @media (min-width: @screen-sm-min) {
+    display: block;
+    position: fixed;
+    bottom: 3rem;
+  }
   a {
-    color: @red;
-    text-align: center;
+    color: white;
     padding: 5%;
     display: block;
     font-size: 3rem;
+    span {
+      background: @red;
+      padding: 1rem;
+    }
     @media (min-width: @screen-sm-min) {
-      padding: 1%;
+      padding: 0;
       display: inline-block;
-      width: 33%;
+      width: 50%;
       &.previous {
         text-align: left;
       }
@@ -21,13 +30,28 @@ nav {
       }
     }
     &:hover {
-      color: lighten(@red, 15%);
+      span {
+        background: lighten(@red, 15%);
+      }
       text-decoration: none;
+      color: white;
     }
   }
 }
 .desaktibatua {
   pointer-events: none;
   cursor: default;
-  color: #ccc;
+  span {
+    background: #ccc;
+  }
+}
+
+a.home {
+  .responsive(12,8,4);
+  text-align: center;
+  font-size: 2em;
+  color: @red;
+  font-family: @body;
+  border-bottom: @red .2em solid;
+  padding-bottom: 1em;
 }
