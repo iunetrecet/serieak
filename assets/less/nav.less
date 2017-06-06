@@ -58,22 +58,40 @@ a.home {
 
 .nagusia {
   width: auto;
+  border-left: .3rem solid grey;
   top: 0;
   right: 0;
   position: fixed;
-  border-left: .3rem solid grey;
   height: 15rem;
   padding: 1rem;
+  @media (max-width: @screen-xs-max) {
+    position: static;
+    display: block;
+    border: none;
+    background: @red;
+    height: auto;
+    margin-bottom: 1rem;
+  }
   a {
     color: grey;
     font-size: 1.5rem;
     display: block;
     width: 100%;
+    @media (max-width: @screen-xs-max) {
+      font-size: 2rem;
+      text-align: center;
+      padding: .5em;
+      color: white;
+    }
     &:hover {
       color: lighten(grey, 20%);
     }
     &.hemen {
       color: @red;
+      @media (max-width: @screen-xs-max) {
+        color: grey;
+        padding-top: 1rem;
+      }
     }
   }
 }

@@ -7361,12 +7361,22 @@ a.home {
 }
 .nagusia {
   width: auto;
+  border-left: .3rem solid grey;
   top: 0;
   right: 0;
   position: fixed;
-  border-left: .3rem solid grey;
   height: 15rem;
   padding: 1rem;
+}
+@media (max-width: 767px) {
+  .nagusia {
+    position: static;
+    display: block;
+    border: none;
+    background: #e1221a;
+    height: auto;
+    margin-bottom: 1rem;
+  }
 }
 .nagusia a {
   color: grey;
@@ -7374,11 +7384,25 @@ a.home {
   display: block;
   width: 100%;
 }
+@media (max-width: 767px) {
+  .nagusia a {
+    font-size: 2rem;
+    text-align: center;
+    padding: .5em;
+    color: white;
+  }
+}
 .nagusia a:hover {
   color: #b3b3b3;
 }
 .nagusia a.hemen {
   color: #e1221a;
+}
+@media (max-width: 767px) {
+  .nagusia a.hemen {
+    color: grey;
+    padding-top: 1rem;
+  }
 }
 .card {
   margin: 3% 0;
