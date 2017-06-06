@@ -7359,6 +7359,27 @@ a.home {
     margin-left: 33.33333333%;
   }
 }
+.nagusia {
+  width: auto;
+  top: 0;
+  right: 0;
+  position: fixed;
+  border-left: .3rem solid grey;
+  height: 15rem;
+  padding: 1rem;
+}
+.nagusia a {
+  color: grey;
+  font-size: 1.5rem;
+  display: block;
+  width: 100%;
+}
+.nagusia a:hover {
+  color: #b3b3b3;
+}
+.nagusia a.hemen {
+  color: #e1221a;
+}
 .card {
   margin: 3% 0;
   position: relative;

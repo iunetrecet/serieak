@@ -55,3 +55,25 @@ a.home {
   border-bottom: @red .2em solid;
   padding-bottom: 1em;
 }
+
+.nagusia {
+  width: auto;
+  top: 0;
+  right: 0;
+  position: fixed;
+  border-left: .3rem solid grey;
+  height: 15rem;
+  padding: 1rem;
+  a {
+    color: grey;
+    font-size: 1.5rem;
+    display: block;
+    width: 100%;
+    &:hover {
+      color: lighten(grey, 20%);
+    }
+    &.hemen {
+      color: @red;
+    }
+  }
+}
