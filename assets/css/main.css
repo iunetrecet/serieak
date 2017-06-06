@@ -6883,12 +6883,63 @@ article {
     margin-left: 25%;
   }
 }
-h3.gaia {
-  margin-top: 0;
+article:first-child {
+  margin-top: -24rem;
+}
+.gaia {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding: 1em 2em !important;
+  background: white;
+  margin-top: -50rem;
+}
+@media (min-width: 768px) {
+  .gaia {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .gaia {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .gaia {
+    margin-left: 16.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .gaia {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  .gaia {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) and (min-width: 768px) {
+  .gaia {
+    margin-left: 25%;
+  }
+}
+.gaia h3 {
   color: #e1221a;
   font-family: LatoRegular;
 }
-h3.gaia:before {
+.gaia h3:before {
   background: #e1221a;
 }
 p.gaiaSarrera {
@@ -6899,11 +6950,16 @@ h1.titularra {
   color: #e1221a;
   font-size: 4.5em;
   margin-bottom: 4rem;
+  margin-top: 1rem;
 }
 @media (min-width: 768px) {
   h1.titularra {
     font-size: 7em;
   }
+}
+h1.titularra.line:before {
+  background: #e1221a;
+  width: 2em;
 }
 p.testua {
   font-size: 1.45em;

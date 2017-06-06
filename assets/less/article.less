@@ -4,13 +4,21 @@ article {
   padding: 2em !important;
   position: relative;
   .responsive(12,8,6);
+  &:first-child {
+    margin-top: -24rem;
+  }
 }
-h3.gaia {
-  margin-top: 0;
-  color: @red;
-  font-family: @body;
-  &:before {
-    background: @red;
+.gaia {
+  .responsive(12,8,6);
+  padding: 1em 2em !important;
+  background: white;
+  margin-top: -50rem;
+  h3 {
+    color: @red;
+    font-family: @body;
+    &:before {
+      background: @red;
+    }
   }
 }
 p.gaiaSarrera {
@@ -21,8 +29,13 @@ h1.titularra {
   color: @red;
   font-size: 4.5em;
   margin-bottom: 4rem;
+  margin-top: 1rem;
   @media (min-width: @screen-sm-min) {
     font-size: 7em;
+  }
+  &.line:before {
+    background: @red;
+    width: 2em;
   }
 }
 p.testua {
