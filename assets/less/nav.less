@@ -65,6 +65,7 @@ a.home {
   height: 15rem;
   padding: 1rem;
   @media (max-width: @screen-xs-max) {
+    width: 100%;
     position: static;
     display: block;
     border: none;
@@ -75,9 +76,10 @@ a.home {
   a {
     color: grey;
     font-size: 1.5rem;
-    display: inline-block;
+    display: block;
     width: 100%;
     @media (max-width: @screen-xs-max) {
+      display: inline-block;
       font-size: 2rem;
       text-align: center;
       padding: .5em;

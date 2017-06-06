@@ -6836,7 +6836,6 @@ header h1.line:before {
 }
 article {
   background: white;
-  margin-top: -24rem;
   padding: 2em !important;
   position: relative;
   float: left;
@@ -6883,8 +6882,13 @@ article {
     margin-left: 25%;
   }
 }
-article:first-child {
-  margin-top: -24rem;
+@media (min-width: 768px) {
+  article {
+    margin-top: -24rem;
+  }
+  article:first-child {
+    margin-top: -24rem;
+  }
 }
 .gaia {
   position: relative;
@@ -6895,7 +6899,7 @@ article:first-child {
   padding-right: 7.5%;
   padding: 1em 2em !important;
   background: white;
-  margin-top: -50rem;
+  margin-top: -10em;
 }
 @media (min-width: 768px) {
   .gaia {
@@ -6933,6 +6937,11 @@ article:first-child {
 @media (min-width: 1200px) and (min-width: 768px) {
   .gaia {
     margin-left: 25%;
+  }
+}
+@media (min-width: 768px) {
+  .gaia {
+    margin-top: -50rem;
   }
 }
 .gaia h3 {
@@ -7370,6 +7379,7 @@ a.home {
 }
 @media (max-width: 767px) {
   .nagusia {
+    width: 100%;
     position: static;
     display: block;
     border: none;
@@ -7386,6 +7396,7 @@ a.home {
 }
 @media (max-width: 767px) {
   .nagusia a {
+    display: inline-block;
     font-size: 2rem;
     text-align: center;
     padding: .5em;
@@ -7401,7 +7412,6 @@ a.home {
 @media (max-width: 767px) {
   .nagusia a.hemen {
     color: grey;
-    padding-top: 1rem;
   }
 }
 .card {
