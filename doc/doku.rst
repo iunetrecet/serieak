@@ -41,12 +41,13 @@ Titularra sartu
 Lehenengo pausoa, headerrean titularra jartzea. *index.html* fitxategian,
 *header* etiketak dauden lekuan, *h1* etiketa dagoen lekuan sartu behar da.
 
-    .. code:: html
-      <header style="background-image: url('assets/images/azala/azala.jpg');">
-        <a class="berria" href="http://berria.eus/udakoak"><img src="assets/images/berria.ico" alt="berria"/> Udako
-          Serieak</a>
-        <h1 class="line">Titularra titu titu</h1>
-      </header>
+  .. code:: html
+
+    <header style="background-image: url('assets/images/azala/azala.jpg');">
+      <a class="berria" href="http://berria.eus/udakoak">
+        <img src="assets/images/berria.ico" alt="berria"/> Udako Serieak</a>
+      <h1 class="line">Titularra titu titu</h1>
+    </header>
 
 Azaleko irudia
 ''''''''''''''
@@ -61,15 +62,16 @@ Artikuluen esteketarako txartelak
 batean bat bakarrik edukiko dugu, eta artikulu gehiago ditugun heinean,
 txartel berriak gehituko ditugu, bakoitzean behar diren informazioarekin.
 
-    .. code:: html
+  .. code:: html
 
-      <div class="card">
-        <a href="lehenengoa.html" class="cardImage" style="background-image: url('assets/images/lehenengoa/azala.jpg')"></a>
-        <h3 class="gaia line"><a href="lehenengoa.html">Lehenengoa</a></h3>
-        <p class="gaiaSarrera"><a href="lehenengoa.html">Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit. Phasellus et nibh non mi varius eleifend eget quis
-        lectus. Nam porttitor sed neque eu pretium.</a></p>
-      </div>
+    <div class="card">
+      <a href="lehenengoa.html" class="cardImage" style="
+        background-image: url('assets/images/lehenengoa/azala.jpg')"></a>
+      <h3 class="gaia line"><a href="lehenengoa.html">Lehenengoa</a></h3>
+      <p class="gaiaSarrera"><a href="lehenengoa.html">Lorem ipsum dolor
+      adipiscing elit. Phasellus et nibh non mi varius eleifend eget quis
+      lectus. Nam porttitor sed neque eu pretium.</a></p>
+    </div>
 
 Txartelaren argazkia
 ....................
@@ -78,9 +80,10 @@ Txartelaren argazkia, barruan jarriko dugun azalaren argazkiaren berdina izango
 da. Hau dela eta, *azala.jpg* deituko dugu eta
 *assets/images/artikuluarenzenbakia/* barnean sartuko dugu.
 
-    .. code:: html
+  .. code:: html
 
-        <a href="lehenengoa.html" class="cardImage" style="background-image: url('assets/images/lehenengoa/azala.jpg')"></a>
+      <a href="lehenengoa.html" class="cardImage"
+        style="background-image: url('assets/images/lehenengoa/azala.jpg')"></a>
 
 Txartelaren gaia
 ................
@@ -88,9 +91,9 @@ Txartelaren gaia
 Artikuluaren gaia edo azpi gaiaren izenburua gehituko dugu hemen eta esteka
 aldatuko diogu, tokatzen zaigun artikuluari esteka jarriz.
 
-    .. code:: html
+  .. code:: html
 
-        <h3 class="gaia line"><a href="lehenengoa.html">Lehenengoa</a></h3>
+      <h3 class="gaia line"><a href="lehenengoa.html">Lehenengoa</a></h3>
 
 Txartelaren gaiaren sarrera
 ...........................
@@ -98,9 +101,9 @@ Txartelaren gaiaren sarrera
 Artikuluaren gaiaren sarreratxoa jarriko dugu hemen eta esteka aldatuko diogu,
 tokatzen zaigun artikuluari esteka jarriz.
 
-    .. code:: html
+  .. code:: html
 
-        <p class="gaiaSarrera"><a href="lehenengoa.html">Lorem ipsum dolor sit amet, consectetur</a></p>
+      <p class="gaiaSarrera"><a href="lehenengoa.html">Lorem ipsum</a></p>
 
 
 Artikuluan
@@ -123,37 +126,37 @@ Gaia
 
 Gaia sartuko dugu *h3* etiketa eta *gaia* klasea duen izenburuaren barnean.
 
-    .. code:: html
+  .. code:: html
 
-      <h3 class="gaia line">Oposizioaren ikuspegia</h3>
+    <h3 class="gaia line">Oposizioaren ikuspegia</h3>
 
 Gaiaren sarrera
 ...............
 
 Gaiaren sarrera sartuko dugu *gaiaSarrera* klasean duen paragrafoan (*p*).
 
-    .. code:: html
+  .. code:: html
 
-      <p class="gaiaSarrera">Lorem ipsum dolor</p>
+    <p class="gaiaSarrera">Lorem ipsum dolor</p>
 
 Titularra
 .........
 
 Titularra *h1* etiketaren barnean sartuko dugu.
 
-    .. code:: html
+  .. code:: html
 
-      <h1 class="titularra">Gris asko, zuri beltzen artean</h1>
+    <h1 class="titularra">Gris asko, zuri beltzen artean</h1>
 
 Sinadura
 ........
 
 Sinadura *sinadura* klasea duen paragrafoaren (*p*) barruan sartuko dugu.
 
-    .. code:: html
+  .. code:: html
 
-      <p class="sinadura"><span class="glyphicon glyphicon-pencil"></span>
-        Izena eta Abizena<span class="sinadura-data">Arrasate</span></p>
+    <p class="sinadura"><span class="glyphicon glyphicon-pencil"></span>
+      Izena eta Abizena<span class="sinadura-data">Arrasate</span></p>
 
 Irudi horizontalak
 ''''''''''''''''''
@@ -163,30 +166,30 @@ Irudi horizontalak bi motatakoak izango dira:
 1. **Azpitutalarren azpian doana,** *irudi_horizontala_azpititularra.html*
    fitxategian dagoena kopiatu eta pegatu behar da.
 
-    .. code:: html
+  .. code:: html
 
-      <div class="irudi horizontala">
-        <img src="assets/images/lehenengoa/horizontala.jpg"/>
-        <label class="oina line">Hau oina da oina oina oina da hau. <span
-            class="sinadura-irudia">Sinadura</label></p>
-      </div>
+    <div class="irudi horizontala">
+      <img src="assets/images/lehenengoa/horizontala.jpg"/>
+      <label class="oina line">Hau oina da oina oina oina da hau. <span
+          class="sinadura-irudia">Sinadura</label></p>
+    </div>
 
-  Irudiaren izena, irudiaren helbidean artikuluaren zenbakia jarri *img src=*, oina eta sinadura bete behar dira.
+Irudiaren izena, irudiaren helbidean artikuluaren zenbakia jarri *img src=*, oina eta sinadura bete behar dira.
 
 2. **Testuaren barruan doana,** *irudi_horizontala.html* fitxategian dagoena
    kopiatu eta pegatu behar da nahi den lekuan.
 
-    .. code:: html
+ .. code:: html
 
-      </p>
-      <div class="irudi horizontala">
-        <img src="assets/images/lehenengoa/horizontala.jpg"/>
-        <label class="oina line">Hau oina da oina oina oina da hau. <span
-            class="sinadura-irudia">Sinadura</label></p>
-      </div>
-      <p class="testua">
+   </p>
+   <div class="irudi horizontala">
+     <img src="assets/images/lehenengoa/horizontala.jpg"/>
+     <label class="oina line">Hau oina da oina oina oina da hau. <span
+         class="sinadura-irudia">Sinadura</label></p>
+   </div>
+   <p class="testua">
 
-  Irudiaren izena, irudiaren helbidean artikuluaren zenbakia jarri *img src=*, oina eta sinadura bete behar dira.
+Irudiaren izena, irudiaren helbidean artikuluaren zenbakia jarri *img src=*, oina eta sinadura bete behar dira.
 
 Irudi bertikala
 '''''''''''''''
@@ -195,15 +198,15 @@ Irudi bertikalak beti testu barruan sartuko dira.
 *irudi_bertikala.html* fitxategian dagoena kopiatu eta pegatu behar da nahi
 den lekuan.
 
-    .. code:: html
+  .. code:: html
 
-      <span class="irudi bertikala">
-        <img src="assets/images/lehenengoa/bertikala.png"/>
-        <label class="oina">Hau oina da oina oina oina da hau. <span
-            class="sinadura-irudia">Sinadura</span></label>
-      </span>
+    <span class="irudi bertikala">
+      <img src="assets/images/lehenengoa/bertikala.png"/>
+      <label class="oina">Hau oina da oina oina oina da hau. <span
+          class="sinadura-irudia">Sinadura</span></label>
+    </span>
 
-  Irudiaren izena,, irudiaren helbidean artikuluaren zenbakia jarri *img src=* oina eta sinadura bete behar dira.
+Irudiaren izena,, irudiaren helbidean artikuluaren zenbakia jarri *img src=* oina eta sinadura bete behar dira.
 
 Irudi panoramikoa
 '''''''''''''''''
@@ -212,18 +215,18 @@ Irudi panoramikoak beti testu barruan sartuko dira.
 *irudi_panoramikoa.html* fitxategian dagoena kopiatu eta pegatu behar da nahi
 den lekuan.
 
-    .. code:: html
+  .. code:: html
 
-      </article>
-      <div class="irudi panoramikoa"
-           style="background-image: url('assets/images/lehenengoa/panoramikoa.jpg');"/>
-        <label class="oina">Hau oina da oina oina oina da hau. <span
-            class="sinadura-irudia">Sinadura</span></label>
-      </div>
-      <article>
+    </article>
+    <div class="irudi panoramikoa"
+      style="background-image: url('assets/images/lehenengoa/panoramikoa.jpg');"/>
+      <label class="oina">Hau oina da oina oina oina da hau. <span
+          class="sinadura-irudia">Sinadura</span></label>
+    </div>
+    <article>
 
 
-  Irudiaren izena, irudiaren helbidean artikuluaren zenbakia jarri *img src=*, oina eta sinadura bete behar dira.
+Irudiaren izena, irudiaren helbidean artikuluaren zenbakia jarri *img src=*, oina eta sinadura bete behar dira.
 
 Esanak
 ''''''
@@ -231,16 +234,16 @@ Esanak
 Esanak beti testu barruan sartuko dira. *esanak.html* fitxategian dagoena
 kopiatu eta nahi dugun lekuan pegatuko dugu.
 
-    .. code:: html
+  .. code:: html
 
-      </p>
-      <section class="esana line">
-          <p>Lorem impsun dolor.</p>
-          <p class="esanaSinadura">Unai Iturriaga</p>
-      </section>
-      <p class="testua">
+    </p>
+    <section class="esana line">
+        <p>Lorem impsun dolor.</p>
+        <p class="esanaSinadura">Unai Iturriaga</p>
+    </section>
+    <p class="testua">
 
-    Esaldia eta izena bete behar dira.
+Esaldia eta izena bete behar dira.
 
 Entresakak
 ''''''''''
@@ -248,13 +251,13 @@ Entresakak
 Entresakak beti testu barruan sartuko dira. *entresakak.html* fitxategian dagoena
 kopiatu eta nahi dugun lekuan pegatuko dugu.
 
-    .. code:: html
+  .. code:: html
 
-      </p>
-      <section class="entresaka line">
-        <p>Lorem ipsum dolor.</p>
-      </section>
-      <p class="testua">
+    </p>
+    <section class="entresaka line">
+      <p>Lorem ipsum dolor.</p>
+    </section>
+    <p class="testua">
 
 
 Nabigazioa
@@ -275,8 +278,8 @@ Bi nabigazio menu daude:
       </a>
     </nav>
 
-  Hurrengo eta aurreko artikuluetako estekak eta izenak jarriko ditugu.
-  Lehenengo artikuluan gaudenean, gogoratu *desaktibatua klasea* jartzen. 
+Hurrengo eta aurreko artikuluetako estekak eta izenak jarriko ditugu.
+Lehenengo artikuluan gaudenean, gogoratu *desaktibatua klasea* jartzen.
 
   .. code:: html
 
@@ -297,7 +300,7 @@ ditugu.
       <a class=" " href="seigarrena.html">Seigarren artikulua</a>
     </nav>
 
-    Estekak eta artikuluen gaiaren izenak sartuko ditugu.
+Estekak eta artikuluen gaiaren izenak sartuko ditugu.
 
 Bideoak
 '''''''
@@ -313,5 +316,7 @@ dugu.
   .. code:: html
 
     <div class="embed-responsive embed-responsive-16by9">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/iWd9wQS37oE" frameborder="0" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="
+        https://www.youtube.com/embed/iWd9wQS37oE" frameborder="0"
+        allowfullscreen></iframe>
     </div>
