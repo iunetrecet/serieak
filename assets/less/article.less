@@ -3,7 +3,6 @@ article {
   padding: 2em !important;
   position: relative;
   .responsive(12,8,6);
-  margin-top: -17rem;
   @media (min-width: @screen-sm-min) {
     margin-top: -24rem;
     &:first-child {
@@ -12,12 +11,12 @@ article {
   }
 }
 .gaia {
-  .responsive(12,8,6);
-  padding: 1em 2em !important;
+  padding: .2em 0 !important;
   background: white;
-  margin-top: -10em;
   display: none;
-  @media (min-width: @screen-lg-min) {
+  position: relative;
+  margin-top: 5rem;
+  @media (min-width: @screen-md-min) {
     display: block;
   }
 }
@@ -26,6 +25,9 @@ h3.line {
   font-family: @body;
   &:before {
     background: @red;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 }
 p.gaiaSarrera {
@@ -57,19 +59,22 @@ p.sinadura {
     font-family: @light;
     font-style: italic;
   }
-  &:before {
-    background: grey;
-  }
-  @media (min-width: @screen-sm-min) {
-    position: absolute;
-    top: 23rem;
-    left: -20rem;
-    width: 19rem;
-    text-align: right;
+  @media (min-width: @screen-md-min) {
     &:before {
       position: absolute;
       right: 0;
       top: -1rem;
+      background: grey;
     }
+  }
+}
+.leftInfo {
+  position: relative;
+  @media (min-width: @screen-md-min) {
+    position: absolute;
+    top: 23rem;
+    left: -30rem;
+    width: 29rem;
+    text-align: right;
   }
 }
