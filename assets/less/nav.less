@@ -62,8 +62,8 @@ a.home {
   top: 0;
   right: 0;
   position: fixed;
-  height: 18rem;
-  padding: .5rem 1.5rem;
+  height: 14rem;
+  padding: .5rem 1rem;
   @media (max-width: @screen-xs-max) {
     width: 100%;
     position: static;
@@ -73,9 +73,13 @@ a.home {
     height: auto;
     margin-bottom: 1rem;
   }
+  @media (min-width: @screen-md-min) {
+    height: 18rem;
+    padding: .5rem 1.5rem;
+  }
   a {
     color: grey;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: block;
     width: 100%;
     @media (max-width: @screen-xs-max) {
@@ -84,7 +88,10 @@ a.home {
       text-align: center;
       padding: .5em;
       color: white;
-    }
+      }
+      @media (min-width: @screen-md-min) {
+        font-size: 2rem;
+      }
     &:hover {
       color: lighten(grey, 20%);
     }
@@ -92,7 +99,7 @@ a.home {
       color: @red;
       @media (max-width: @screen-xs-max) {
         color: grey;
-      }
+    }
     }
   }
 }

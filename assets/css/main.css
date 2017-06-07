@@ -7338,8 +7338,8 @@ a.home {
   top: 0;
   right: 0;
   position: fixed;
-  height: 18rem;
-  padding: .5rem 1.5rem;
+  height: 14rem;
+  padding: .5rem 1rem;
 }
 @media (max-width: 767px) {
   .nagusia {
@@ -7352,9 +7352,15 @@ a.home {
     margin-bottom: 1rem;
   }
 }
+@media (min-width: 992px) {
+  .nagusia {
+    height: 18rem;
+    padding: .5rem 1.5rem;
+  }
+}
 .nagusia a {
   color: grey;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: block;
   width: 100%;
 }
@@ -7365,6 +7371,11 @@ a.home {
     text-align: center;
     padding: .5em;
     color: white;
+  }
+}
+@media (min-width: 992px) {
+  .nagusia a {
+    font-size: 2rem;
   }
 }
 .nagusia a:hover {
