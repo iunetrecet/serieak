@@ -6843,6 +6843,7 @@ article {
   min-height: 1px;
   padding-left: 7.5%;
   padding-right: 7.5%;
+  margin-top: -17rem;
 }
 @media (min-width: 768px) {
   article {
@@ -6900,6 +6901,7 @@ article {
   padding: 1em 2em !important;
   background: white;
   margin-top: -10em;
+  display: none;
 }
 @media (min-width: 768px) {
   .gaia {
@@ -6939,9 +6941,9 @@ article {
     margin-left: 25%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .gaia {
-    margin-top: -50rem;
+    display: block;
   }
 }
 h3.line {

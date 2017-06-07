@@ -3,6 +3,7 @@ article {
   padding: 2em !important;
   position: relative;
   .responsive(12,8,6);
+  margin-top: -17rem;
   @media (min-width: @screen-sm-min) {
     margin-top: -24rem;
     &:first-child {
@@ -15,8 +16,9 @@ article {
   padding: 1em 2em !important;
   background: white;
   margin-top: -10em;
-  @media (min-width: @screen-sm-min) {
-    margin-top: -50rem;
+  display: none;
+  @media (min-width: @screen-lg-min) {
+    display: block;
   }
 }
 h3.line {
