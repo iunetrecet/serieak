@@ -24,9 +24,11 @@ nav {
       width: 50%;
       &.previous {
         text-align: left;
+        display: none;
       }
       &.next {
         text-align: right;
+        display: none;
       }
     }
     &:hover {
@@ -67,7 +69,7 @@ a.home {
   @media (max-width: @screen-xs-max) {
     width: 100%;
     position: static;
-    display: block;
+    display: inline-block;
     border: none;
     background: @red;
     height: auto;
