@@ -7297,11 +7297,9 @@ nav a span {
   }
   nav a.previous {
     text-align: left;
-    display: none;
   }
   nav a.next {
     text-align: right;
-    display: none;
   }
 }
 nav a:hover {
@@ -7372,12 +7370,12 @@ a.home {
 }
 .nagusia {
   width: auto;
-  border-left: .3rem solid grey;
+  border-left: 0.4rem solid #e1221a;
   top: 0;
   right: 0;
   position: fixed;
-  height: 15rem;
-  padding: 1rem;
+  height: 18rem;
+  padding: .5rem 1.5rem;
 }
 @media (max-width: 767px) {
   .nagusia {
@@ -7392,7 +7390,7 @@ a.home {
 }
 .nagusia a {
   color: grey;
-  font-size: 1.5rem;
+  font-size: 2rem;
   display: block;
   width: 100%;
 }
