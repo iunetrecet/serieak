@@ -134,7 +134,7 @@ Gaiaren sarrera sartuko dugu *gaiaSarrera* klasean duen paragrafoan (*p*).
 
     .. code:: html
 
-      <p class="gaiaSarrera">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec vehicula ante. Donec suscipit facilisis nisi quis euismod. Praesent eu sollicitudin arcu.</p>
+      <p class="gaiaSarrera">Lorem ipsum dolor</p>
 
 Titularra
 .........
@@ -152,8 +152,8 @@ Sinadura *sinadura* klasea duen paragrafoaren (*p*) barruan sartuko dugu.
 
     .. code:: html
 
-      <p class="sinadura"><span class="glyphicon glyphicon-pencil"></span> Izena eta Abizena
-          <span class="sinadura-data">Arrasate</span></p>
+      <p class="sinadura"><span class="glyphicon glyphicon-pencil"></span>
+        Izena eta Abizena<span class="sinadura-data">Arrasate</span></p>
 
 Irudi horizontalak
 ''''''''''''''''''
@@ -235,7 +235,7 @@ kopiatu eta nahi dugun lekuan pegatuko dugu.
 
       </p>
       <section class="esana line">
-          <p>Iruñeko espetxe berriaren inauguratu zenean, alderdi guztiek nabarmendu zuten "mugarria" izan zitekeela espetxe arloko eskumenak hartzeko, baina lau urteren ondoren ezer gutxi egin da, Francesen arabera.</p>
+          <p>Lorem impsun dolor.</p>
           <p class="esanaSinadura">Unai Iturriaga</p>
       </section>
       <p class="testua">
@@ -252,6 +252,49 @@ kopiatu eta nahi dugun lekuan pegatuko dugu.
 
       </p>
       <section class="entresaka line">
-        <p>Txosten arabera, erakunde nafarrek aspalditik egin dute aldarrikapen historiko hori. Bere garaian, adibidez, Nafarroako Diputazioak 1923an eskumen hori hartzeko eskatu zion orduko Espainiako Gobernuari.</p>
+        <p>Lorem ipsum dolor.</p>
       </section>
       <p class="testua">
+
+
+Nabigazioa
+''''''''''
+
+Bi nabigazio menu daude:
+
+**1. Geziak:** Hurrengo eta aurreko artikulura joateko geziak.
+
+  .. code:: html
+
+    <nav>
+      <a class="previous desaktibatua" href="">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="next" href="bigarrena.html">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </nav>
+
+  Hurrengo eta aurreko artikuluetako estekak eta izenak jarriko ditugu.
+  Lehenengo artikuluan gaudenean, gogoratu *desaktibatua klasea* jartzen. 
+
+  .. code:: html
+
+      <a class="previous desaktibatua" href="">
+
+**2. Menu nagusia:** Behin artikulua bukatuta agertzen dena, *nav
+class="nagusia* bezala. Menu hontan dauden artikulu guztietara estekak jarriko
+ditugu.
+
+  .. code:: html
+
+    <nav class="nagusia">
+      <a class="hemen" href="lehenengoa.html">Lehenengoa</a>
+      <a class=" " href="bigarrena.html">Bigarrena</a>
+      <a class=" " href="hirugarrena.html">Hirugarren artikulua</a>
+      <a class=" " href="laugarrena.html">Laugarrena</a>
+      <a class=" " href="bostgarrena.html">Bostgarrena</a>
+      <a class=" " href="seigarrena.html">Seigarren artikulua</a>
+    </nav>
+
+    Estekak eta artikuluen gaiaren izenak sartuko ditugu.
