@@ -6944,11 +6944,11 @@ article {
     margin-top: -50rem;
   }
 }
-.gaia h3 {
+h3.line {
   color: #e1221a;
   font-family: LatoRegular;
 }
-.gaia h3:before {
+h3.line:before {
   background: #e1221a;
 }
 p.gaiaSarrera {
@@ -7297,9 +7297,11 @@ nav a span {
   }
   nav a.previous {
     text-align: left;
+    display: none;
   }
   nav a.next {
     text-align: right;
+    display: none;
   }
 }
 nav a:hover {
@@ -7381,7 +7383,7 @@ a.home {
   .nagusia {
     width: 100%;
     position: static;
-    display: block;
+    display: inline-block;
     border: none;
     background: #e1221a;
     height: auto;
