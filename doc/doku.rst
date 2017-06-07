@@ -298,3 +298,20 @@ ditugu.
     </nav>
 
     Estekak eta artikuluen gaiaren izenak sartuko ditugu.
+
+Bideoak
+'''''''
+
+Berriako bideoak *youtube*-ra igotzen ditugu. Gure webgunean sartu ahal
+izateko, *youtube*-ra joango gara eta bideoaren azpian dagoen *Partekatu*
+botoiari emanda, menuan *Kapsulatu* aukeratuko dugu. Behean agertuko den kodea
+aukeratuko dugu *<iframe .....* hori.
+
+Liburutegian dagoen *bideoa.html* irekiko dugu eta *div*-en artean itsatsiko
+dugu.
+
+  .. code:: html
+
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/iWd9wQS37oE" frameborder="0" allowfullscreen></iframe>
+    </div>
