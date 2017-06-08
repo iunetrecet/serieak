@@ -6836,13 +6836,14 @@ header h1.line:before {
 }
 article {
   background: white;
-  padding: 2em !important;
+  padding: 1em 2em !important;
   position: relative;
   float: left;
   width: 100%;
   min-height: 1px;
   padding-left: 7.5%;
   padding-right: 7.5%;
+  margin-top: -15rem;
 }
 @media (min-width: 768px) {
   article {
@@ -6884,6 +6885,7 @@ article {
 }
 @media (min-width: 768px) {
   article {
+    padding: 2em !important;
     margin-top: -24rem;
   }
   article:first-child {
