@@ -10,6 +10,30 @@ article {
     }
   }
 }
+
+h1.titularra {
+  color: @red;
+  font-size: 4.5em;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+  @media (min-width: @screen-sm-min) {
+    font-size: 7em;
+  }
+  &.line:before {
+    background: @red;
+    width: 2em;
+  }
+}
+.leftInfo {
+  position: relative;
+  @media (min-width: @screen-md-min) {
+    position: absolute;
+    top: 23rem;
+    left: -30rem;
+    width: 29rem;
+    text-align: right;
+  }
+}
 .gaia {
   padding: .2em 0 !important;
   background: white;
@@ -25,28 +49,22 @@ h3.line {
   font-family: @body;
   &:before {
     background: @red;
-    position: absolute;
-    right: 0;
-    top: 0;
   }
 }
 p.gaiaSarrera {
   font-size: 1.7em;
   margin-top: 1em;
 }
-h1.titularra {
-  color: @red;
-  font-size: 4.5em;
-  margin-bottom: 4rem;
-  margin-top: 1rem;
-  @media (min-width: @screen-sm-min) {
-    font-size: 7em;
-  }
-  &.line:before {
-    background: @red;
-    width: 2em;
+article {
+  h3.line {
+    &:before {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
   }
 }
+
 p.testua {
   font-size: 1.45em;
   line-height: 1.5em;
@@ -66,15 +84,5 @@ p.sinadura {
       top: -1rem;
       background: grey;
     }
-  }
-}
-.leftInfo {
-  position: relative;
-  @media (min-width: @screen-md-min) {
-    position: absolute;
-    top: 23rem;
-    left: -30rem;
-    width: 29rem;
-    text-align: right;
   }
 }

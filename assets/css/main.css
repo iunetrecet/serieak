@@ -6769,14 +6769,14 @@ header h1 {
   background: white;
   font-size: 7rem;
   font-family: LatoRegular;
+  padding: 4rem !important;
+  margin-top: 10%;
   position: relative;
   float: left;
   width: 100%;
   min-height: 1px;
   padding-left: 7.5%;
   padding-right: 7.5%;
-  padding: 4rem !important;
-  margin-top: 10%;
 }
 @media (min-width: 768px) {
   header h1 {
@@ -6890,6 +6890,33 @@ article {
     margin-top: -24rem;
   }
 }
+h1.titularra {
+  color: #e1221a;
+  font-size: 4.5em;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  h1.titularra {
+    font-size: 7em;
+  }
+}
+h1.titularra.line:before {
+  background: #e1221a;
+  width: 2em;
+}
+.leftInfo {
+  position: relative;
+}
+@media (min-width: 992px) {
+  .leftInfo {
+    position: absolute;
+    top: 23rem;
+    left: -30rem;
+    width: 29rem;
+    text-align: right;
+  }
+}
 .gaia {
   padding: .2em 0 !important;
   background: white;
@@ -6908,28 +6935,15 @@ h3.line {
 }
 h3.line:before {
   background: #e1221a;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 p.gaiaSarrera {
   font-size: 1.7em;
   margin-top: 1em;
 }
-h1.titularra {
-  color: #e1221a;
-  font-size: 4.5em;
-  margin-bottom: 4rem;
-  margin-top: 1rem;
-}
-@media (min-width: 768px) {
-  h1.titularra {
-    font-size: 7em;
-  }
-}
-h1.titularra.line:before {
-  background: #e1221a;
-  width: 2em;
+article h3.line:before {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 p.testua {
   font-size: 1.45em;
@@ -6950,18 +6964,6 @@ p.sinadura .sinadura-data {
     right: 0;
     top: -1rem;
     background: grey;
-  }
-}
-.leftInfo {
-  position: relative;
-}
-@media (min-width: 992px) {
-  .leftInfo {
-    position: absolute;
-    top: 23rem;
-    left: -30rem;
-    width: 29rem;
-    text-align: right;
   }
 }
 .irudi {
