@@ -7337,23 +7337,24 @@ a.home {
   }
 }
 .nagusia {
-  width: auto;
-  border-left: 0.4rem solid #e1221a;
-  top: 0;
-  right: 0;
-  position: fixed;
-  height: 14rem;
-  padding: .5rem 1rem;
+  width: 100%;
+  position: static;
+  display: inline-block;
+  border: none;
+  background: #e1221a;
+  height: auto;
+  margin-bottom: 1rem;
 }
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .nagusia {
-    width: 100%;
-    position: static;
-    display: inline-block;
-    border: none;
-    background: #e1221a;
-    height: auto;
-    margin-bottom: 1rem;
+    background: none;
+    width: auto;
+    border-left: 0.4rem solid #e1221a;
+    top: 0;
+    right: 0;
+    position: fixed;
+    height: 14rem;
+    padding: .5rem 1rem;
   }
 }
 @media (min-width: 992px) {
@@ -7363,18 +7364,20 @@ a.home {
   }
 }
 .nagusia a {
-  color: grey;
-  font-size: 1.5rem;
-  display: block;
-  width: 100%;
+  display: inline-block;
+  font-size: 2rem;
+  text-align: center;
+  padding: .5em;
+  color: white;
 }
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .nagusia a {
-    display: inline-block;
-    font-size: 2rem;
-    text-align: center;
-    padding: .5em;
-    color: white;
+    color: grey;
+    font-size: 1.5rem;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0;
   }
 }
 @media (min-width: 992px) {
