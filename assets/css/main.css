@@ -7449,10 +7449,14 @@ h3 a:hover {
   color: #e1221a;
   text-decoration: none;
 }
+h3 a:focus {
+  color: #e1221a;
+  text-decoration: none;
+}
 p.gaiaSarrera a {
   color: black;
 }
-p.gaiaSarrera a:hover {
+p.gaiaSarrera a:focus {
   color: black;
   text-decoration: none;
 }
