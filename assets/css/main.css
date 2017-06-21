@@ -6770,7 +6770,7 @@ header h1 {
   font-size: 7rem;
   font-family: LatoRegular;
   padding: 4rem !important;
-  margin-top: 10%;
+  margin-top: 60vh;
   position: relative;
   float: left;
   width: 100%;
@@ -6818,12 +6818,12 @@ header h1 {
 }
 @media (min-width: 768px) {
   header h1 {
-    font-size: 9rem;
+    font-size: 5rem;
   }
 }
 @media (min-width: 1200px) {
   header h1 {
-    font-size: 12rem;
+    font-size: 7rem;
   }
 }
 header h1.line:before {
@@ -6832,7 +6832,7 @@ header h1.line:before {
   width: 2em;
 }
 .index header {
-  height: 60vh;
+  height: 80vh;
 }
 article {
   background: white;
