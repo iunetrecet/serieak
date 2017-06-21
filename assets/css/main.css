@@ -6886,7 +6886,7 @@ article {
 @media (min-width: 768px) {
   article {
     padding: 2em !important;
-    margin-top: -24rem;
+    margin-top: -14rem;
   }
   article:first-child {
     margin-top: -24rem;
@@ -7239,6 +7239,7 @@ nav {
   width: 100%;
   font-size: 0;
   display: none;
+  z-index: 100;
 }
 @media (min-width: 768px) {
   nav {
@@ -7347,7 +7348,7 @@ a.home {
 }
 @media (min-width: 768px) {
   .nagusia {
-    background: none;
+    background: white;
     width: auto;
     border-left: 0.4rem solid #e1221a;
     top: 0;
