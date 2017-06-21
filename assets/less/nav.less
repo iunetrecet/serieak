@@ -66,9 +66,7 @@ a.home {
   height: auto;
   margin-bottom: 1rem;
   @media (min-width: @screen-sm-min) {
-    background: white;
     width: auto;
-    border-left: .4rem solid @red;
     top: 0;
     right: 0;
     position: fixed;
@@ -76,8 +74,9 @@ a.home {
     padding: .5rem 1rem;
   }
   @media (min-width: @screen-md-min) {
-    height: 18rem;
     padding: .5rem 1.5rem;
+    background: none;
+    padding: 0;
   }
   a {
     display: inline-block;
@@ -85,6 +84,8 @@ a.home {
     text-align: center;
     padding: .5em;
     color: white;
+    border-left: .4rem solid @red;
+    background: white;
     @media (min-width: @screen-sm-min) {
       color: grey;
       font-size: 1.5rem;
@@ -95,6 +96,7 @@ a.home {
     }
     @media (min-width: @screen-md-min) {
       font-size: 2rem;
+      padding: .2rem 1rem;
     }
     &:hover {
       color: lighten(grey, 20%);
