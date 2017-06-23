@@ -6907,6 +6907,14 @@ h1.titularra.line:before {
   background: #e1221a;
   width: 2em;
 }
+h2.bigarrenTitu {
+  color: #e1221a;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
+h2.bigarrenTitu:before {
+  background: #e1221a;
+}
 .leftInfo {
   position: relative;
 }
