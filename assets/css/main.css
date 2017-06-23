@@ -7364,28 +7364,23 @@ a.home {
   }
 }
 .nagusia a {
-  display: inline-block;
-  font-size: 2rem;
-  text-align: center;
   padding: .5em;
   color: white;
-  border-left: 0.4rem solid #e1221a;
-  background: white;
-}
-@media (min-width: 768px) {
-  .nagusia a {
-    color: grey;
-    font-size: 1.5rem;
-    display: block;
-    width: 100%;
-    text-align: left;
-    padding: 0;
-  }
+  font-size: 2rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: .2em;
 }
 @media (min-width: 992px) {
   .nagusia a {
+    color: grey;
+    width: auto;
     font-size: 2rem;
     padding: .2rem 1rem;
+    background: white;
+    border-left: 0.4rem solid #e1221a;
+    text-align: left;
   }
 }
 .nagusia a:hover {

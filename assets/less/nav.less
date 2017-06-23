@@ -79,24 +79,21 @@ a.home {
     padding: 0;
   }
   a {
-    display: inline-block;
-    font-size: 2rem;
-    text-align: center;
     padding: .5em;
     color: white;
-    border-left: .4rem solid @red;
-    background: white;
-    @media (min-width: @screen-sm-min) {
-      color: grey;
-      font-size: 1.5rem;
-      display: block;
-      width: 100%;
-      text-align: left;
-      padding: 0;
-    }
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: .2em;
     @media (min-width: @screen-md-min) {
+      color: grey;
+      width: auto;
       font-size: 2rem;
       padding: .2rem 1rem;
+      background: white;
+      border-left: .4rem solid @red;
+      text-align: left;
     }
     &:hover {
       color: lighten(grey, 20%);
