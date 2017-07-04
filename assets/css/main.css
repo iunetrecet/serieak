@@ -6911,6 +6911,50 @@ h2.bigarrenTitu {
   color: #e1221a;
   font-weight: bold;
   margin: 2em 0 1em 0;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+@media (min-width: 768px) {
+  h2.bigarrenTitu {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  h2.bigarrenTitu {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  h2.bigarrenTitu {
+    margin-left: 16.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  h2.bigarrenTitu {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  h2.bigarrenTitu {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) and (min-width: 768px) {
+  h2.bigarrenTitu {
+    margin-left: 25%;
+  }
 }
 h2.bigarrenTitu:before {
   background: #e1221a;
