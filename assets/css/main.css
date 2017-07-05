@@ -6932,6 +6932,9 @@ h2.bigarrenTitu:before {
     text-align: right;
   }
 }
+.leftInfo img {
+  width: 30%;
+}
 .gaia {
   padding: .2em 0 !important;
   background: white;
