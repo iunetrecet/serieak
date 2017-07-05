@@ -7377,10 +7377,6 @@ a.home {
     position: fixed;
     height: 14rem;
     padding: .5rem 1rem;
-  }
-}
-@media (min-width: 992px) {
-  .nagusia {
     padding: .5rem 1.5rem;
     background: none;
     padding: 0;
@@ -7395,7 +7391,7 @@ a.home {
   text-align: center;
   padding: .2em;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .nagusia a {
     color: grey;
     width: auto;
