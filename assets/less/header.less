@@ -13,14 +13,16 @@ header {
     text-decoration: none;
     font-size: 2rem;
   }
+  hgroup {
+    .responsive(12,8,8);
+    margin-top: 60vh;
+  }
   h1 {
     color: @red;
     background: white;
     font-size: 7rem;
     font-family: @body;
-    padding: 4rem !important;
-    margin-top: 60vh;
-    .responsive(12,8,8);
+    padding: 4rem 4rem 1rem 4rem !important;
     @media (min-width: @screen-sm-min) {
       font-size: 5rem;
     }
@@ -32,6 +34,9 @@ header {
       background: @red;
       width: 2em;
     }
+  }
+  h3 {
+    padding: 0 4rem !important;
   }
 }
 .index header {

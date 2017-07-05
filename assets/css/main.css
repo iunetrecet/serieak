@@ -6764,22 +6764,17 @@ header a.berria {
   text-decoration: none;
   font-size: 2rem;
 }
-header h1 {
-  color: #e1221a;
-  background: white;
-  font-size: 7rem;
-  font-family: LatoRegular;
-  padding: 4rem !important;
-  margin-top: 60vh;
+header hgroup {
   position: relative;
   float: left;
   width: 100%;
   min-height: 1px;
   padding-left: 7.5%;
   padding-right: 7.5%;
+  margin-top: 60vh;
 }
 @media (min-width: 768px) {
-  header h1 {
+  header hgroup {
     position: relative;
     min-height: 1px;
     padding-left: 0;
@@ -6787,18 +6782,18 @@ header h1 {
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
-  header h1 {
+  header hgroup {
     float: left;
     width: 66.66666667%;
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
-  header h1 {
+  header hgroup {
     margin-left: 16.66666667%;
   }
 }
 @media (min-width: 1200px) {
-  header h1 {
+  header hgroup {
     position: relative;
     min-height: 1px;
     padding-left: 0;
@@ -6806,15 +6801,22 @@ header h1 {
   }
 }
 @media (min-width: 1200px) and (min-width: 1200px) {
-  header h1 {
+  header hgroup {
     float: left;
     width: 66.66666667%;
   }
 }
 @media (min-width: 1200px) and (min-width: 768px) {
-  header h1 {
+  header hgroup {
     margin-left: 16.66666667%;
   }
+}
+header h1 {
+  color: #e1221a;
+  background: white;
+  font-size: 7rem;
+  font-family: LatoRegular;
+  padding: 4rem 4rem 1rem 4rem !important;
 }
 @media (min-width: 768px) {
   header h1 {
@@ -6830,6 +6832,9 @@ header h1.line:before {
   height: 1rem;
   background: #e1221a;
   width: 2em;
+}
+header h3 {
+  padding: 0 4rem !important;
 }
 .index header {
   height: 80vh;
