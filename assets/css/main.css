@@ -7269,12 +7269,12 @@ footer {
 footer .kredituak {
   padding: 0;
   margin-top: 2em;
-  font-size: .8em;
+  font-size: 1.15em;
   list-style: none;
 }
 footer .kredituak li {
   display: inline-block;
-  border-right: .1em solid grey;
+  border-left: .1em solid grey;
   padding: 0 1em;
 }
 footer .kredituak li:first-child {
