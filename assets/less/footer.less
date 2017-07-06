@@ -2,4 +2,18 @@ footer {
   .responsive(12, 12, 12);
   text-align: center;
   padding: 4rem;
+  .kredituak {
+    padding: 0;
+    margin-top: 2em;
+    font-size: .8em;
+    list-style: none;
+    li {
+      display: inline-block;
+      border-right: .1em solid grey;
+      padding: 0 1em;
+      &:first-child {
+        border-left: none;
+      }
+    }
+  }
 }
