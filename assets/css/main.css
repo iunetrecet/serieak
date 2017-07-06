@@ -7268,14 +7268,16 @@ footer {
 }
 footer .kredituak {
   padding: 0;
-  margin-top: 2em;
   font-size: 1.15em;
+  margin: 2em auto 0 auto;
   list-style: none;
+  width: 75%;
 }
 footer .kredituak li {
   display: inline-block;
   border-left: .1em solid grey;
   padding: 0 1em;
+  margin-bottom: 1em;
 }
 footer .kredituak li:first-child {
   border-left: none;
