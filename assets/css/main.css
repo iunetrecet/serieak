@@ -7266,6 +7266,20 @@ footer {
     margin-left: 0%;
   }
 }
+footer .kredituak {
+  padding: 0;
+  margin-top: 2em;
+  font-size: .8em;
+  list-style: none;
+}
+footer .kredituak li {
+  display: inline-block;
+  border-right: .1em solid grey;
+  padding: 0 1em;
+}
+footer .kredituak li:first-child {
+  border-left: none;
+}
 nav {
   font-family: LatoRegular;
   margin-bottom: 2em;
