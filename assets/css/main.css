@@ -6922,6 +6922,8 @@ h2.bigarrenTitu:before {
 }
 .leftInfo {
   position: relative;
+  z-index: 100;
+  background: white;
 }
 @media (min-width: 992px) {
   .leftInfo {
