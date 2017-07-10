@@ -6752,9 +6752,14 @@ header {
   height: 90vh;
   margin-bottom: 4rem;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  background-size: auto 100%;
+}
+@media (min-width: 992px) {
+  header {
+    background-size: cover;
+  }
 }
 header a.berria {
   display: block;
