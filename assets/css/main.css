@@ -6754,7 +6754,12 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: auto 100%;
+  background-size: auto 120%;
+}
+@media (min-width: 768px) {
+  header {
+    background-size: 120% auto;
+  }
 }
 @media (min-width: 992px) {
   header {
@@ -7018,7 +7023,6 @@ p.sinadura .sinadura-data {
 .panoramikoa {
   height: 40rem;
   background-attachment: fixed;
-  background-size: cover;
   position: relative;
   float: left;
   width: 100%;
@@ -7027,6 +7031,7 @@ p.sinadura .sinadura-data {
   padding-right: 7.5%;
   padding: 0 !important;
   margin: 2rem 0 !important;
+  background-size: auto 100%;
 }
 @media (min-width: 768px) {
   .panoramikoa {
@@ -7064,6 +7069,11 @@ p.sinadura .sinadura-data {
 @media (min-width: 1200px) and (min-width: 768px) {
   .panoramikoa {
     margin-left: 0%;
+  }
+}
+@media (min-width: 992px) {
+  .panoramikoa {
+    background-size: cover;
   }
 }
 .panoramikoa .oina {
@@ -7353,6 +7363,7 @@ a.home {
   font-family: LatoRegular;
   border-bottom: #e1221a 0.2em solid;
   padding-bottom: 1em;
+  margin: 3em 0;
 }
 @media (min-width: 768px) {
   a.home {
