@@ -7036,7 +7036,6 @@ p.sinadura .sinadura-data {
 }
 .panoramikoa {
   height: 40rem;
-  background-attachment: fixed;
   position: relative;
   float: left;
   width: 100%;
@@ -7046,6 +7045,7 @@ p.sinadura .sinadura-data {
   padding: 0 !important;
   margin: 2rem 0 !important;
   background-size: auto 100%;
+  background-position: center center;
 }
 @media (min-width: 768px) {
   .panoramikoa {
@@ -7087,6 +7087,7 @@ p.sinadura .sinadura-data {
 }
 @media (min-width: 992px) {
   .panoramikoa {
+    background-attachment: fixed;
     background-size: cover;
   }
 }
