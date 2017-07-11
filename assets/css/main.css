@@ -7102,6 +7102,52 @@ p.sinadura .sinadura-data {
     bottom: -10%;
   }
 }
+.panoramikoagainetik {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+@media (min-width: 768px) {
+  .panoramikoagainetik {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .panoramikoagainetik {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .panoramikoagainetik {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  .panoramikoagainetik {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  .panoramikoagainetik {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) and (min-width: 768px) {
+  .panoramikoagainetik {
+    margin-left: 0%;
+  }
+}
 .panoramikoagainetik img {
   width: 100%;
 }
