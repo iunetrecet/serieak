@@ -6749,21 +6749,24 @@ body {
   background: #e1221a;
 }
 header {
-  height: 90vh;
-  margin-bottom: 4rem;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: auto 120%;
+  background: white;
+}
+header img.azala {
+  width: 100% !important;
+}
+@media (max-width: 767px) {
+  header {
+    background-image: none !important;
+  }
 }
 @media (min-width: 768px) {
   header {
-    background-size: 120% auto;
-  }
-}
-@media (min-width: 992px) {
-  header {
+    height: 90vh;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-bottom: 4rem;
   }
 }
 header a.berria {
@@ -6773,6 +6776,9 @@ header a.berria {
   font-weight: bold;
   text-decoration: none;
   font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 header hgroup {
   position: relative;
@@ -6858,7 +6864,6 @@ article {
   min-height: 1px;
   padding-left: 7.5%;
   padding-right: 7.5%;
-  margin-top: -15rem;
 }
 @media (min-width: 768px) {
   article {
@@ -6909,13 +6914,15 @@ article {
 }
 h1.titularra {
   color: #e1221a;
-  font-size: 4.5em;
+  font-size: 2.5em;
   margin-bottom: 4rem;
   margin-top: 1rem;
+  font-weight: bold;
 }
 @media (min-width: 768px) {
   h1.titularra {
     font-size: 7em;
+    font-weight: normal;
   }
 }
 h1.titularra.line:before {

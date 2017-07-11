@@ -1,15 +1,18 @@
 header {
-  height: 90vh;
-  margin-bottom: 4rem;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: auto 120%;
-  @media (min-width: @screen-sm-min) {
-    background-size: 120% auto;
+  background: white;
+  img.azala {
+    width: 100% !important;
   }
-  @media (min-width: @screen-md-min) {
+  @media (max-width: @screen-xs-max) {
+    background-image: none !important;
+  }
+  @media (min-width: @screen-sm-min) {
+    height: 90vh;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-bottom: 4rem;
   }
   a.berria {
     display: block;
@@ -18,6 +21,9 @@ header {
     font-weight: bold;
     text-decoration: none;
     font-size: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   hgroup {
     .responsive(12,8,8);
