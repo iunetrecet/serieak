@@ -6726,6 +6726,7 @@ button.close {
 }
 body {
   font-family: LatoLight;
+  max-width: 2000px;
 }
 .wrap {
   margin-left: -15px;
@@ -6787,6 +6788,7 @@ header hgroup {
   min-height: 1px;
   padding-left: 7.5%;
   padding-right: 7.5%;
+  background: white;
 }
 @media (min-width: 768px) {
   header hgroup {
