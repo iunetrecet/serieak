@@ -6787,7 +6787,6 @@ header hgroup {
   min-height: 1px;
   padding-left: 7.5%;
   padding-right: 7.5%;
-  margin-top: 60vh;
 }
 @media (min-width: 768px) {
   header hgroup {
@@ -6827,16 +6826,22 @@ header hgroup {
     margin-left: 16.66666667%;
   }
 }
+@media (min-width: 768px) {
+  header hgroup {
+    margin-top: 60vh;
+  }
+}
 header h1 {
   color: #e1221a;
   background: white;
-  font-size: 7rem;
+  font-size: 3rem;
   font-family: LatoRegular;
-  padding: 4rem 4rem 1rem 4rem !important;
+  padding: 1rem !important;
 }
 @media (min-width: 768px) {
   header h1 {
     font-size: 5rem;
+    padding: 4rem 4rem 1rem 4rem !important;
   }
 }
 @media (min-width: 1200px) {
