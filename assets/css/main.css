@@ -7012,6 +7012,62 @@ p.sinadura .sinadura-data {
     background: grey;
   }
 }
+.analisiaTrama {
+  font-size: 0;
+  margin-top: 6rem;
+}
+.analisiaTrama .irudia {
+  border-radius: 100%;
+  border: solid 0.5rem #e1221a;
+  width: 75%;
+  padding-bottom: 70%;
+  vertical-align: middle;
+  background-size: auto 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  margin: 2rem auto;
+}
+@media (min-width: 768px) {
+  .analisiaTrama .irudia {
+    width: 25%;
+    padding-bottom: 24%;
+    display: inline-block;
+    margin: 0;
+  }
+}
+.analisiaTrama hgroup {
+  width: 100%;
+  background: #e1221a;
+  display: block;
+  color: white;
+  vertical-align: middle;
+  padding: 1rem 2rem;
+  margin-bottom: -2rem;
+}
+@media (min-width: 768px) {
+  .analisiaTrama hgroup {
+    display: inline-block;
+    width: 79%;
+    margin-left: -4%;
+  }
+}
+.analisiaTrama hgroup h1 {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 2rem;
+  margin: 0;
+}
+.analisiaTrama hgroup h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: .5em 0 .2em 0;
+}
+.analisiaTrama hgroup h3 {
+  margin: 0;
+  font-style: italic;
+  font-size: 2rem;
+}
 .irudi {
   position: relative;
 }
