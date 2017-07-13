@@ -7014,6 +7014,7 @@ p.sinadura .sinadura-data {
 .analisiaTrama {
   font-size: 0;
   margin-top: 6rem;
+  margin-bottom: -3rem;
 }
 .analisiaTrama .irudia {
   border-radius: 100%;
