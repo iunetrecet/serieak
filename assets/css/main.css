@@ -6748,6 +6748,11 @@ body {
   color: white;
   background: #e1221a;
 }
+b,
+strong {
+  font-family: 'LatoRegular';
+  font-weight: normal;
+}
 header {
   background: white;
 }
