@@ -1,7 +1,19 @@
 header {
   background: white;
+  position: relative;
   img.azala {
     width: 100% !important;
+  }
+  label {
+    display: none;
+    @media (min-width: @screen-md-min) {
+      display: block;
+      position: absolute;
+      bottom: -2em;
+      right: 3em;
+      background: white;
+      padding: .3em;
+    }
   }
   @media (max-width: @screen-xs-max) {
     background-image: none !important;

@@ -6755,9 +6755,23 @@ strong {
 }
 header {
   background: white;
+  position: relative;
 }
 header img.azala {
   width: 100% !important;
+}
+header label {
+  display: none;
+}
+@media (min-width: 992px) {
+  header label {
+    display: block;
+    position: absolute;
+    bottom: -2em;
+    right: 3em;
+    background: white;
+    padding: .3em;
+  }
 }
 @media (max-width: 767px) {
   header {
