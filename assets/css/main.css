@@ -7582,7 +7582,7 @@ a.home {
     color: grey;
     width: auto;
     font-size: 2rem;
-    padding: .2rem 1rem;
+    padding: .2rem 3rem .2rem 1rem;
     background: white;
     border-left: 0.4rem solid #e1221a;
     text-align: left;
