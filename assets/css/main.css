@@ -6923,6 +6923,13 @@ article {
     margin-top: -24rem;
   }
 }
+article a {
+  color: #e1221a;
+  font-weight: bold;
+}
+article a:hover {
+  color: #ef7772;
+}
 h1.titularra {
   color: #e1221a;
   font-size: 2.5em;
