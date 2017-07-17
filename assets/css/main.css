@@ -7350,25 +7350,6 @@ img.karetoa {
   font-family: "LatoSemiBold";
   src: url(../fonts/lato/Lato-Semibold.ttf);
 }
-@font-face {
-  font-family: "PTSerif";
-  src: url(../fonts/pt/PT_Serig-Web-Regular.ttf);
-}
-@font-face {
-  font-family: "PTSerif";
-  src: url(../fonts/pt/PT_Serig-Web-Italic.ttf);
-  font-style: italic;
-}
-@font-face {
-  font-family: "PTSerif";
-  src: url(../fonts/pt/PT_Serig-Web-Italic.ttf);
-  font-style: italic;
-}
-@font-face {
-  font-family: "PTSerif";
-  src: url(../fonts/pt/PT_Serig-Web-Bold.ttf);
-  font-weight: bold;
-}
 @keyframes move {
   from {
     left: -10em;
