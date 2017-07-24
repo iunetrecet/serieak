@@ -7246,6 +7246,9 @@ p.sinadura .sinadura-data {
     bottom: 0;
   }
 }
+.horizontala {
+  margin-bottom: 1rem;
+}
 .horizontala img {
   width: 100%;
 }
