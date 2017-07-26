@@ -1,11 +1,18 @@
 .card {
   margin: 3% 0;
-  .make-xs-column(12, 15%);
+  .make-xs-column(12, 5%);
   @media (min-width: @screen-sm-min){
-    .make-sm-column(4, 7%);
+    .make-sm-column(6, 7%);
+    p.gaiaSarrera {
+      height: 13em;
+      font-size: 1.4em;
+    }
   }
   @media (min-width: @screen-lg-min){
     .make-lg-column(4, 7%);
+    p.gaiaSarrera {
+      font-size: 1.7em;
+    }
   }
 }
 .cardImage {

@@ -7607,8 +7607,8 @@ a.home {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
 @media (min-width: 768px) {
   .card {
@@ -7617,11 +7617,15 @@ a.home {
     padding-left: 3.5%;
     padding-right: 3.5%;
   }
+  .card p.gaiaSarrera {
+    height: 13em;
+    font-size: 1.4em;
+  }
 }
 @media (min-width: 768px) and (min-width: 768px) {
   .card {
     float: left;
-    width: 33.33333333%;
+    width: 50%;
   }
 }
 @media (min-width: 1200px) {
@@ -7630,6 +7634,9 @@ a.home {
     min-height: 1px;
     padding-left: 3.5%;
     padding-right: 3.5%;
+  }
+  .card p.gaiaSarrera {
+    font-size: 1.7em;
   }
 }
 @media (min-width: 1200px) and (min-width: 1200px) {
