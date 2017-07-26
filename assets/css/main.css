@@ -6804,8 +6804,8 @@ header hgroup {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
   background: white;
 }
 @media (min-width: 768px) {
@@ -6882,13 +6882,12 @@ header h3 {
 }
 article {
   background: white;
-  padding: 1em 2em !important;
   position: relative;
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
 }
 @media (min-width: 768px) {
   article {
@@ -7122,8 +7121,8 @@ p.sinadura .sinadura-data {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
   padding: 0 !important;
   margin: 2rem 0 !important;
   background-size: auto 140%;
@@ -7190,8 +7189,8 @@ p.sinadura .sinadura-data {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
 }
 @media (min-width: 768px) {
   .panoramikoagainetik {
@@ -7384,8 +7383,8 @@ footer {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
   text-align: center;
   padding: 4rem;
 }
@@ -7500,8 +7499,8 @@ a.home {
   float: left;
   width: 100%;
   min-height: 1px;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
   text-align: center;
   font-size: 2em;
   color: #e1221a;
