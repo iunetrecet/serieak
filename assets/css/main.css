@@ -7092,6 +7092,25 @@ p.sinadura .sinadura-data {
   font-style: italic;
   font-size: 2rem;
 }
+.soslaia {
+  background: #dddddd;
+}
+.soslaia img {
+  width: 100%;
+}
+.soslaia .soslaiaTestua {
+  column-count: 2;
+  column-gap: 2em;
+  column-rule: .1em grey solid;
+  padding: 2em;
+}
+.soslaia .soslaiaTestua p {
+  font-size: 1.3em;
+}
+.soslaia h2 {
+  display: inline-block;
+  margin-top: 0;
+}
 .irudi {
   position: relative;
 }
